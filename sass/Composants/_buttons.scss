@@ -1,6 +1,8 @@
 @mixin white-button-hover{
+    transition:  color 0.2s;
     color: rgba(255,255,255, 0.8);
 }
 @mixin black-button-hover{
+    transition:  color 0.2s;
     color: rgba(0,0,0, 0.7);
 }
