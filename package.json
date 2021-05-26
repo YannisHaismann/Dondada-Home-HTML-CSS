@@ -1,0 +1,11 @@
+{
+  "name": "writting-sass",
+  "version": "1.0.0",
+  "description": "Le sass de site DonDada.fr",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:public/css/styles.css"
+  },
+  "author": "Yannis Haismann",
+  "license": "ISC"
+}
