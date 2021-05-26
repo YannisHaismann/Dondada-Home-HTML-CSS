@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "storybookregular";
+  src: url("../../public/fonts/storyboo-webfont.woff2") format("woff2"), url("../../public/fonts/storyboo-webfont.woff") format("woff"), url("../../public/fonts/Storyboo.TTF") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: storybookregular;
+  font-size: 75%;
+}
 
+body {
+  background-color: #E3E3E3;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav-bar {
+  display: flex;
+}
+.header-nav-bar__title {
+  width: 200px;
+}
+.header-nav-bar__second-title {
+  width: 200px;
+}
 
 /*# sourceMappingURL=styles.css.map */
