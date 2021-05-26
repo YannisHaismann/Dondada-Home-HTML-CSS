@@ -1,16 +1,36 @@
 .content-page{
   background-image: url("../img/dondadav2.png");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 60%;
+  background-size: 1900px 1400px;
   width: 100%;
   height: 800px;
+  @media (max-width: $breakpoint-l) {
+    background-size: 1500px 1050px;
+  }
+  @media (max-width: $breakpoint-s) {
+    background-size: 1100px 700px;
+  }
   &__title{
     text-align: center;
-    padding-top: 420px;
+    padding-top: 350px;
+    @media (max-width: $breakpoint-l) {
+      padding-top: 380px;
+    }
+    @media (max-width: $breakpoint-s) {
+      padding-top: 410px;
+    }
     a{
       color: white;
       font-size: 1.5em;
       text-decoration: underline;
+      letter-spacing: 1px;
+      @media (max-width: $breakpoint-l) {
+        font-size: 1.1em;
+      }
+      @media (max-width: $breakpoint-s) {
+        font-size: 0.8em;
+      }
       &:hover{
         @include white-button-hover;
       }

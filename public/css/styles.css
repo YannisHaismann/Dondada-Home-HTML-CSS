@@ -20,18 +20,50 @@ body a {
 .content-page {
   background-image: url("../img/dondadav2.png");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 60%;
+  background-size: 1900px 1400px;
   width: 100%;
   height: 800px;
 }
+@media (max-width: 1200px) {
+  .content-page {
+    background-size: 1500px 1050px;
+  }
+}
+@media (max-width: 900px) {
+  .content-page {
+    background-size: 1100px 700px;
+  }
+}
 .content-page__title {
   text-align: center;
-  padding-top: 420px;
+  padding-top: 350px;
+}
+@media (max-width: 1200px) {
+  .content-page__title {
+    padding-top: 380px;
+  }
+}
+@media (max-width: 900px) {
+  .content-page__title {
+    padding-top: 410px;
+  }
 }
 .content-page__title a {
   color: white;
   font-size: 1.5em;
   text-decoration: underline;
+  letter-spacing: 1px;
+}
+@media (max-width: 1200px) {
+  .content-page__title a {
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 900px) {
+  .content-page__title a {
+    font-size: 0.8em;
+  }
 }
 .content-page__title a:hover {
   color: rgba(255, 255, 255, 0.8);

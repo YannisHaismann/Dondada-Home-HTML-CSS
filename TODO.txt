@@ -1,0 +1,5 @@
+Reactoriser au max
+Footer
+Animation hoover
+Autoprefixer le site pour tout les navigateurs
+push git
